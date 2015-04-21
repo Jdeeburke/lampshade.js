@@ -14,5 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jdeeburke",
-  "license": "ISC"
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bin": {
+    "lampshade": "lampshade.js"
+  }
 }

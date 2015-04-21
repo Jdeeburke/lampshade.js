@@ -1,5 +1,3 @@
-#!/usr/bin node
-
 var sites_available_dir = '/etc/apache2/sites-available';
 var sites_enabled_dir = '/etc/apache2/sites-enabled';
 
@@ -37,7 +35,7 @@ function enableVhost( vhost, callback )
 
       process.stdout.write( "Enabling " + vhost + "... " + chalk.bold.green("Done!") + "\n" );
 
-      restartApache(function() 
+      restartApache(function()
       {
         if( typeof callback === 'function')
           callback(vhost);
