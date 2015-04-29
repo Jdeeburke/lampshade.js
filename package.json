@@ -6,8 +6,7 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "commander": "^2.8.0",
-    "inquirer": "^0.8.2",
-    "walk": "^2.3.9"
+    "inquirer": "^0.8.2"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,5 +17,18 @@
   "preferGlobal": "true",
   "bin": {
     "lampshade": "lampshade.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdeeburke/lampshade.js.git"
+  },
+  "keywords": [
+    "apache",
+    "lamp",
+    "vhosts"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jdeeburke/lampshade.js/issues"
+  },
+  "homepage": "https://github.com/Jdeeburke/lampshade.js#readme"
 }
