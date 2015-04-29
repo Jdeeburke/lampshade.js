@@ -1,6 +1,6 @@
 {
   "name": "lampshade",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "LAMP utility",
   "main": "index.js",
   "dependencies": {
