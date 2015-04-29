@@ -17,3 +17,5 @@ The only functionality in place so far is for managing Apache virtualhosts.
 `lampshade vhosts enable`
 
 `lampshade vhosts disable`
+
+Test
