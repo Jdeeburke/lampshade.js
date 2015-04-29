@@ -1,4 +1,4 @@
-#Lampshade.js
+# Lampshade.js
 
 Lampshade is a tool for simplifying some everyday tasks associated with development on a LAMP stack.
 
@@ -6,10 +6,10 @@ This is brand spanking new and currently only works for Debian/Ubuntu-based syst
 
 The only functionality in place so far is for managing Apache virtualhosts.
 
-##Installation
+## Installation
 `npm install -g lampshade`
 
-##Usage
+## Usage
 `lampshade vhosts list`
 
 `lampshade vhosts create`
